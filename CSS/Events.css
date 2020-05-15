@@ -1,0 +1,134 @@
+ul {
+    float: right;
+    list-style type: none;
+    margin-top: 25px
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(36, 4, 219);
+    padding: 5px 20px;
+    border: 1px solid #transparent;
+    transition: 0.6 ease;
+}
+
+ul li a:hover {
+    background-color: #52E44f;
+    color: #000;
+}
+
+ul li.active a {
+    background-color: #52E44f;
+    color: #000;
+}
+
+ .banner {
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  background-image: url("../Image/Events_pic.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 0;
+  min-height: 100vh;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+  .banner .inner {
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #FFF;
+  }
+
+  .banner p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .banner:before {
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    left: 0;
+    opacity: 0.45;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  		.image.fit {
+  			display: block;
+  			margin: 0 0 2rem 0;
+  			width: 100%;
+        text-align : center;
+  		}
+
+  			.image.fit img {
+  				width: 50%;
+
+  			}
+
+
+
+              /* Create three equal columns that floats next to each other */
+              .column {
+                float: left;
+                width: 48%;
+                padding: 15px;
+
+              }
+              .column h2{
+                text-align: center;
+              }
+
+              /* Clear floats after the columns */
+              .row:after {
+                content: "";
+                display: table;
+                clear: both;
+              }
+
+              /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+              @media screen and (max-width:600px) {
+                .column {
+                  width: 100%;
+
+                }
+
+                footer {
+                  background-color: #f1f1f1;
+                  padding: 10px;
+                  text-align: center;
+                  width: 100%;
+                  position:absolute;
+                }
