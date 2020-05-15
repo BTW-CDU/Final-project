@@ -62,7 +62,7 @@ ul li a:hover{
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("CDUBG.jpg");
+  background-image: <img src="CDUBG.jpg" width="140" height="110">;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
