@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>CDU 2020 CODE COMPEITITION</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Events.css">
+  </head>
+
+  <body>
+    <a href="index.html">
+      <img src="123.jpeg" width="140" height="110">
+    </a>
+
+   <ul>
+			 <b><li><a href="index.html">Home</a></li>
+			 <li class="active"><a href="Events.html">Events</a><li>
+			<li><a href="resources.html">Resources</a><li>
+			 <li><a href="school.html">For school</a><li>
+			<li><a href="industry.html">For industry</a><li>
+			 <li><a href="contact.html">Contact</a><li></b>
+		</ul>
+
+    <section class="banner">
+    				<div class="inner">
+    					<h1>Events</h1>
+    					<p>Events for you</p>
+    				</div>
+    </section>
+
+    <div class="box">
+    <div class="row">
+      <div class="column">
+
+        <h2>Cyber Security Challenge</h2>
+
+        <div class="image fit">
+          <img src="Image/Events_csc.jpg" alt="" />
+        </div>
+
+        <li>Workshop provides a hands on experience on how to protect your self digitally.</li>
+        <li>We needs more kids to select cybersecurity as a career.</li>
+        <li>Our workshop is tailored around the current themes for digitally engaged kids.</li>
+        <ul class="actions">
+          <li><a href="#">More Details</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+
+        <h2>Business Innovation Challenge</h2>
+
+        <div class="image fit">
+          <img src="Image/Events_bic.jpg" alt="" />
+        </div>
+
+        <li>Solve a real-life problem related to a local business issue.</li>
+        <li>Create/develop a working prototype (code) AND/OR or a concept ( Powerpoint or Poster) for solving the problem.</li>
+        <li>Communicate to a panel of judges in a 5-minute presentation.</li>
+        <ul class="actions">
+          <li><a href="#">More Details</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+    </body>
+
+    <footer>
+      © 2020 Powered by BTW
+    </footer>
+
+    <script type="text/javascript" src="JavaScript/Events.js"></script>
+
+</html>
