@@ -31,7 +31,7 @@ ul li {
 ul li a{
 	text-decoration: none ;
 	font-size:100%;
-	color:#52E44f;
+	color:#3C4F89;
 	padding:5px 20px;
 	border: 1px solid #transparent;
 	transition: 0.6 ease;
@@ -43,7 +43,7 @@ ul li a:hover{
 }
 	
 	ul li.active a{
-		background-color: #52E44f;
+		background-color: #F6F6F6;
 	color: #000;
 		
 
