@@ -7,15 +7,14 @@ ul{
 ul li {
 	display: inline-block;
 }
-ul li a{
-	text-decoration: none ;
-	font-size:130%;
-	color:#3C4F89;
-	padding:4px 15px;
-	border: 1px solid #transparent;
-	transition: 0.6 ease;
-	
-}
+ul li a {
+                           text-decoration: none;
+                           color: red;
+                           padding: 5px 20px;
+                           border: 1px solid #transparent;
+                           transition: 0.6 ease;
+                       }
+
 ul li a:hover {
                            background-color: white;
                            color: #000;
