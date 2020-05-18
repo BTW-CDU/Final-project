@@ -12,6 +12,7 @@ ul li a{
 	font-size:130%;
 	color:#3C4F89;
 	padding:4px 15px;
+	margin:25;
 	border: 1px solid #transparent;
 	transition: 0.6 ease;
 	
@@ -35,7 +36,7 @@ ul li a:hover{
 
   padding: 50px;
 
-  margin: 45px;
+  margin: 70px;
 
 }
 		
