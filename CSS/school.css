@@ -121,11 +121,7 @@ body, html {
                        }
 
 
-                       .colummn {
-                            width: 25%;
-                            float: left;
-                            padding: 100px 10px;
-                        }
+                       
 
                        .row:after {
                            content: "";
