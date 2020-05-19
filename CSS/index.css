@@ -1,4 +1,4 @@
-body {
+*body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -95,19 +95,10 @@ body, html {
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
 
-}
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -115,3 +106,73 @@ body, html {
     width: 100%;
   }
 }
+
+
+
+
+
+                       body {
+                           font-family: Arial, Helvetica, sans-serif;
+                           background-color:white;
+                       }
+
+
+
+
+                       .row:after {
+                           content: "";
+                           display: table;
+                           clear: both;
+                       }
+
+                       @media screen and (max-width:600px) {
+                           .colummn {
+                               width: 100%;
+                               display: block;
+                               margin-bottom: 20px;
+                           }
+                       }
+
+                       .card {
+
+                           max-width: 1000px;
+                           margin: auto;
+                           background-color: white;
+                           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+                           text-align: center;
+                           border-radius: 40px;
+                           padding-bottom: 15px;
+                           color: red;
+                       }
+
+                       .card img {
+                           border-radius: 50%;
+                           cursor: pointer;
+                       }
+
+
+
+                       button {
+                           border: none;
+                           padding: 8px;
+                           display: inline-block;
+                           color: white;
+                           background-color: black;
+                           cursor: pointer;
+                           width: 70%;
+                           border-radius: 20px;
+                           font-size: 18px;
+                           text-align: center;
+                       }
+
+                       .header {
+
+                           padding: 60px;
+                           text-align: center;
+
+
+                       }
+
+                       img:hover {
+                           opacity: 0.8;
+                       }
