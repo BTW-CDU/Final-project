@@ -24,6 +24,16 @@
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
+    <script src="01.js"></script>
+			<p id="demo"> </p>
+<script>
+
+function create(){
+	alert("Only open for VIP students.");
+  document.getElementById("demo").innerHTML=("You are not VIP student so you wonld not be able to register.");
+}
+</script>
+<button type="button" onclick="create()">Register an account</button>
   </div>
 
 
